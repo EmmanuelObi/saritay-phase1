@@ -1,0 +1,19 @@
+.optionContainer {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms linear;
+}
+.optionContainer .optionName {
+  font-size: 40px;
+}
+.optionContainer .optionCount {
+  font-size: 35px;
+  transition: 300ms linear;
+}
+.optionContainer:hover {
+  cursor: pointer;
+}

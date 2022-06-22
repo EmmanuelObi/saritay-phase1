@@ -1,0 +1,22 @@
+.ballotContainer {
+  position: absolute;
+  display: flex;
+  width: 35%;
+  top: 200px;
+  left: 32.5%;
+  background: #fff;
+  min-height: 200px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.ballotContainer .divider {
+  min-height: 200px;
+  border: 0.3px solid grey;
+  background: gray;
+}
+.ballotContainer:hover {
+  opacity: 0.9;
+  box-shadow: 1px 1px 2px 1px rgb(137, 135, 135);
+}
