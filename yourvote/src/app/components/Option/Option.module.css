@@ -1,17 +1,19 @@
 .optionContainer {
   width: 50%;
-  height: 200px;
+  min-height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   transition: 300ms linear;
 }
 .optionContainer .optionName {
   font-size: 40px;
+  margin: 0 !important;
 }
 .optionContainer .optionCount {
   font-size: 35px;
+  margin: 0 !important;
   transition: 300ms linear;
 }
 .optionContainer:hover {
