@@ -19,3 +19,15 @@
 .optionContainer:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 500px) {
+  .optionContainer {
+    min-height: unset;
+  }
+  .optionContainer .optionName {
+    font-size: 30px;
+  }
+  .optionContainer .optionCount {
+    font-size: 26px;
+  }
+}
